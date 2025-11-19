@@ -1,6 +1,6 @@
 # flutter_workshop_weather_2025
 
-## **Khởi tạo MultiProvider + ThemeSwitcher**
+## 1. **Khởi tạo MultiProvider + ThemeSwitcher**
 
 `lib\main.dart`:
 
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-## **Tạo model và service gọi API**
+## 2. **Tạo model và service gọi API**
 
 `lib\models\weather.dart`:
 
@@ -110,7 +110,7 @@ class WeatherService {
 }
 ```
 
-## **Tạo Provider để quản lý danh sách favourite và theme**
+## 3. **Tạo Provider để quản lý danh sách favourite và theme**
 
 `lib\providers\theme_provider.dart`:
 
@@ -169,7 +169,7 @@ class FavouriteProvider extends ChangeNotifier {
 }
 ```
 
-## **Xây dựng các màn hình**
+## 4. **Xây dựng các màn hình**
 
 `lib\screens\home_page.dart`:
 
